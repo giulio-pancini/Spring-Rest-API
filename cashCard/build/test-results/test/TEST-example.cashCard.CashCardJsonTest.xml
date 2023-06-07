@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="example.cashCard.CashCardJsonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-06-07T15:31:38" hostname="NB-GPANCINI" time="1.418">
+  <properties/>
+  <testcase name="shouldReturnACashCardWhenDataIsSaved()" classname="example.cashCard.CashCardJsonTest" time="1.418"/>
+  <system-out><![CDATA[17:31:36.515 [Test worker] INFO org.springframework.test.context.support.AnnotationConfigContextLoaderUtils -- Could not detect default configuration classes for test class [example.cashCard.CashCardJsonTest]: CashCardJsonTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+17:31:36.665 [Test worker] INFO org.springframework.boot.test.context.SpringBootTestContextBootstrapper -- Found @SpringBootConfiguration example.cashCard.CashCardApplication for test class example.cashCard.CashCardJsonTest
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::                (v3.1.0)
+
+2023-06-07T17:31:37.187+02:00  INFO 1956 --- [    Test worker] example.cashCard.CashCardJsonTest        : Starting CashCardJsonTest using Java 17.0.7 with PID 1956 (started by g.pancini in C:\Users\g.pancini\Downloads\cashCard)
+2023-06-07T17:31:37.191+02:00  INFO 1956 --- [    Test worker] example.cashCard.CashCardJsonTest        : No active profile set, falling back to 1 default profile: "default"
+2023-06-07T17:31:38.248+02:00  INFO 1956 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 0 (http)
+2023-06-07T17:31:38.260+02:00  INFO 1956 --- [    Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-07T17:31:38.261+02:00  INFO 1956 --- [    Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-07T17:31:38.374+02:00  INFO 1956 --- [    Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-07T17:31:38.377+02:00  INFO 1956 --- [    Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1148 ms
+2023-06-07T17:31:38.871+02:00  INFO 1956 --- [    Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 60727 (http) with context path ''
+2023-06-07T17:31:38.881+02:00  INFO 1956 --- [    Test worker] example.cashCard.CashCardJsonTest        : Started CashCardJsonTest in 2.017 seconds (process running for 3.548)
+2023-06-07T17:31:40.045+02:00  INFO 1956 --- [o-auto-1-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-06-07T17:31:40.045+02:00  INFO 1956 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-06-07T17:31:40.047+02:00  INFO 1956 --- [o-auto-1-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
